@@ -5,7 +5,6 @@
     }
   },
   "rewrites": [
-    { "source": "/api/ask", "destination": "/api/ask" },
-    { "source": "/(.*)", "destination": "/public/index.html" }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
