@@ -10,7 +10,7 @@ import urllib.error
 import os
 import re
 
-DOCS_URL = "https://ezyvin.com/api/"
+DOCS_URL = "https://ezyvin.com/openapi/v1.json"
 
 # Module-level cache – lever under warm starts på samma instans
 _docs_cache: str | None = None
